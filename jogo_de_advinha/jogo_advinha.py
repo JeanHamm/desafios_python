@@ -1,7 +1,10 @@
 import random
-from write_hello import well_write
+def well_come(mensagem):
+    print('-------------------')
+    print(mensagem)
+    print('-------------------')
 
-well_write('Bem vindo')
+well_come('Bem vindo')
 
 jogo = True
 while(jogo == True):
